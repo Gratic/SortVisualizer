@@ -1,14 +1,5 @@
 C:\Users\Fraxinus\Desktop\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Fraxinus\Documents\Codes\CPP\SortVisualizer
--- Found SFML but requested component 'graphicsREQUIRED' is missing in the config defined in C:/Libraries/SFML/lib/cmake/SFML.
-CMake Warning at CMakeLists.txt:11 (find_package):
-  Found package configuration file:
-
-    C:/Libraries/SFML/lib/cmake/SFML/SFMLConfig.cmake
-
-  but it set SFML_FOUND to FALSE so package "SFML" is considered to be NOT
-  FOUND.
-
-
+-- Found SFML 2.5.1 in C:/Libraries/SFML/lib/cmake/SFML
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/cmake-build-debug

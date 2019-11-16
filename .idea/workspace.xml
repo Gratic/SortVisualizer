@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="SortVisualizer" targetName="SortVisualizer" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-static-libgcc -static-libstdc++ -pthread" />
     </configurations>
   </component>
   <component name="ChangeListManager">
@@ -28,13 +30,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1Tc5vb0cjZqB1Z917oXupAz3Z1f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,24 +61,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.SortVisualizer (1)">
-    <configuration name="SortVisualizer (1)" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortVisualizer" TARGET_NAME="SortVisualizer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortVisualizer" RUN_TARGET_NAME="SortVisualizer">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="SortVisualizer" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-pthread" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortVisualizer" TARGET_NAME="TriSFML" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortVisualizer" RUN_TARGET_NAME="TriSFML">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="CMake Application.SortVisualizer" />
-      <item itemvalue="CMake Application.SortVisualizer (1)" />
-    </list>
+    <configuration name="SortVisualizer" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortVisualizer" TARGET_NAME="SortVisualizer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortVisualizer" RUN_TARGET_NAME="SortVisualizer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="CMake Application.SortVisualizer (1)" />
+        <item itemvalue="CMake Application.SortVisualizer" />
       </list>
     </recent_temporary>
   </component>
@@ -91,11 +93,22 @@
       <workItem from="1573837444156" duration="1656000" />
       <workItem from="1573915226839" duration="7140000" />
       <workItem from="1573931703490" duration="6183000" />
-      <workItem from="1573938460148" duration="833000" />
+      <workItem from="1573938460148" duration="2405000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

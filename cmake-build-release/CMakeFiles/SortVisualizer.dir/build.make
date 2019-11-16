@@ -111,11 +111,10 @@ SortVisualizer.exe: CMakeFiles/SortVisualizer.dir/main.cpp.obj
 SortVisualizer.exe: CMakeFiles/SortVisualizer.dir/Sources/Value.cpp.obj
 SortVisualizer.exe: CMakeFiles/SortVisualizer.dir/Sources/Sort.cpp.obj
 SortVisualizer.exe: CMakeFiles/SortVisualizer.dir/build.make
-SortVisualizer.exe: C:/Libraries/SFML/lib/libsfml-window-s.a
-SortVisualizer.exe: C:/Libraries/SFML/lib/libsfml-system-s.a
 SortVisualizer.exe: C:/Libraries/SFML/lib/libsfml-graphics-s.a
 SortVisualizer.exe: C:/Libraries/SFML/lib/libsfml-window-s.a
 SortVisualizer.exe: C:/Libraries/SFML/lib/libsfml-system-s.a
+SortVisualizer.exe: C:/Libraries/SFML/lib/libfreetype.a
 SortVisualizer.exe: CMakeFiles/SortVisualizer.dir/linklibs.rsp
 SortVisualizer.exe: CMakeFiles/SortVisualizer.dir/objects1.rsp
 SortVisualizer.exe: CMakeFiles/SortVisualizer.dir/link.txt

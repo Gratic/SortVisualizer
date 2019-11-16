@@ -24,7 +24,7 @@ int main() {
     Sort sortTwo(NUMBER_OF_ELEMENT, 400);
     Sort sortThree(NUMBER_OF_ELEMENT, 400);
 
-    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Tri SFML");
+    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Sort Visualizer | Zaleks");
 
     //std::sortThread th1(quickSort, std::ref(list), 0, NUMBER_OF_ELEMENT-1);
     threads.push_back(launchSort(sortOne, "quickSort", 10));
