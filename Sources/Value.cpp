@@ -7,12 +7,10 @@
 #include <string>
 
 Value::Value() {
-    //srand(time(NULL));
     setValue(rand() % 100);
 }
 
 Value::Value(int max) {
-    //srand(time(NULL));
     setValue(rand() % max);
 }
 
@@ -22,30 +20,6 @@ int Value::getValue() const {
 
 void Value::setValue(int value) {
     Value::value = value;
-}
-
-bool Value::getIsPivot() const {
-    return isPivot;
-}
-
-void Value::setIsPivot(bool isPivot) {
-    Value::isPivot = isPivot;
-}
-
-bool Value::getIsOrdered() const {
-    return isOrdered;
-}
-
-void Value::setIsOrdered(bool isOrdered) {
-    Value::isOrdered = isOrdered;
-}
-
-bool Value::getIsInUse() const {
-    return isInUse;
-}
-
-void Value::setIsInUse(bool isInUse) {
-    Value::isInUse = isInUse;
 }
 
 bool Value::operator==(const Value &rhs) const {

@@ -149,6 +149,33 @@ Sources/Sort.cpp.s:
 	$(MAKE) -f CMakeFiles\SortVisualizer.dir\build.make CMakeFiles/SortVisualizer.dir/Sources/Sort.cpp.s
 .PHONY : Sources/Sort.cpp.s
 
+Sources/SortVisualizer.obj: Sources/SortVisualizer.cpp.obj
+
+.PHONY : Sources/SortVisualizer.obj
+
+# target to build an object file
+Sources/SortVisualizer.cpp.obj:
+	$(MAKE) -f CMakeFiles\SortVisualizer.dir\build.make CMakeFiles/SortVisualizer.dir/Sources/SortVisualizer.cpp.obj
+.PHONY : Sources/SortVisualizer.cpp.obj
+
+Sources/SortVisualizer.i: Sources/SortVisualizer.cpp.i
+
+.PHONY : Sources/SortVisualizer.i
+
+# target to preprocess a source file
+Sources/SortVisualizer.cpp.i:
+	$(MAKE) -f CMakeFiles\SortVisualizer.dir\build.make CMakeFiles/SortVisualizer.dir/Sources/SortVisualizer.cpp.i
+.PHONY : Sources/SortVisualizer.cpp.i
+
+Sources/SortVisualizer.s: Sources/SortVisualizer.cpp.s
+
+.PHONY : Sources/SortVisualizer.s
+
+# target to generate assembly for a file
+Sources/SortVisualizer.cpp.s:
+	$(MAKE) -f CMakeFiles\SortVisualizer.dir\build.make CMakeFiles/SortVisualizer.dir/Sources/SortVisualizer.cpp.s
+.PHONY : Sources/SortVisualizer.cpp.s
+
 Sources/Value.obj: Sources/Value.cpp.obj
 
 .PHONY : Sources/Value.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... Sources/Sort.obj
 	@echo ... Sources/Sort.i
 	@echo ... Sources/Sort.s
+	@echo ... Sources/SortVisualizer.obj
+	@echo ... Sources/SortVisualizer.i
+	@echo ... Sources/SortVisualizer.s
 	@echo ... Sources/Value.obj
 	@echo ... Sources/Value.i
 	@echo ... Sources/Value.s

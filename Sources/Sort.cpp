@@ -111,8 +111,6 @@ void Sort::quickSort(int lo, int hi) {
         int pivot(hi);
         int i(lo);
         while (i <= pivot) {
-            sleepDelay();
-            sleepDelay();
             if (getValues()[i] > getValues()[pivot]) {
                 sleepDelay();
                 swap(i, pivot - 1);
@@ -152,13 +150,27 @@ void Sort::bubbleSort() {
 
 }
 
+void Sort::selectionSort() {
+    for(int i(0); i < getNumberOfElement(); i++)
+    {
+        int min(getNumberOfElement() - 1);
+        for(int j(i); j < getNumberOfElement(); j++)
+        {
+            sleepDelay();
+            if(getValues()[j] < getValues()[min])
+                min = j;
+            setPivotIndex(min);
+        }
+        swap(i, min);
+        sortedIndexes.push_back(i);
+    }
+}
+
 // Permet d'échanger deux valeurs au sein du vector de l'objet
 void Sort::swap(int a, int b) {
-    std::vector<Value> values(getValues());
     Value buffer(values[a]);
     values[a] = values[b];
     values[b] = buffer;
-    setValues(values);
 }
 
 std::string Sort::toString() const {

@@ -688,6 +688,22 @@ string
 thread
 -
 
+C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/SortVisualizer.h
+../Headers/SortVisualizer.h
+C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/SortVisualizer.h
+../Headers/Sort.h
+C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/Sort.h
+string
+-
+vector
+-
+thread
+-
+SFML/Graphics.hpp
+C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/SFML/Graphics.hpp
+iostream
+-
+
 C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/Value.h
 random
 -
@@ -707,4 +723,6 @@ thread
 -
 iostream
 -
+Headers/SortVisualizer.h
+C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/SortVisualizer.h
 

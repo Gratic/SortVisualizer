@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SortVisualizer.dir/Sources/Sort.cpp.obj"
+  "CMakeFiles/SortVisualizer.dir/Sources/SortVisualizer.cpp.obj"
   "CMakeFiles/SortVisualizer.dir/Sources/Value.cpp.obj"
   "CMakeFiles/SortVisualizer.dir/main.cpp.obj"
   "SortVisualizer.exe"

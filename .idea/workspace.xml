@@ -40,10 +40,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fraxinus\Documents\Codes\CPP\SortVisualizer\Headers" />
+      <recent name="C:\Users\Fraxinus\Documents\Codes\CPP\SortVisualizer\Sources" />
       <recent name="C:\Users\Fraxinus\Documents\Codes\CPP\TriSFML\Sources" />
       <recent name="C:\Users\Fraxinus\Documents\Codes\CPP\TriSFML\Headers" />
       <recent name="C:\Users\Fraxinus\Documents\Codes\CPP\TriSFML\Source" />
@@ -61,7 +63,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.SortVisualizer (1)">
+    <configuration name="SortVisualizer (1)" type="CMakeRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortVisualizer" TARGET_NAME="SortVisualizer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortVisualizer" RUN_TARGET_NAME="SortVisualizer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortVisualizer" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-pthread" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortVisualizer" TARGET_NAME="TriSFML" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortVisualizer" RUN_TARGET_NAME="TriSFML">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -72,8 +79,13 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.SortVisualizer" />
+      <item itemvalue="CMake Application.SortVisualizer (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="CMake Application.SortVisualizer (1)" />
         <item itemvalue="CMake Application.SortVisualizer" />
       </list>
     </recent_temporary>
@@ -94,6 +106,7 @@
       <workItem from="1573915226839" duration="7140000" />
       <workItem from="1573931703490" duration="6183000" />
       <workItem from="1573938460148" duration="3011000" />
+      <workItem from="1573993933274" duration="12102000" />
     </task>
     <servers />
   </component>
@@ -105,7 +118,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

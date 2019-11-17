@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Sources/Sort.cpp" "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/cmake-build-release/CMakeFiles/SortVisualizer.dir/Sources/Sort.cpp.obj"
+  "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Sources/SortVisualizer.cpp" "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/cmake-build-release/CMakeFiles/SortVisualizer.dir/Sources/SortVisualizer.cpp.obj"
   "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Sources/Value.cpp" "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/cmake-build-release/CMakeFiles/SortVisualizer.dir/Sources/Value.cpp.obj"
   "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/main.cpp" "C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/cmake-build-release/CMakeFiles/SortVisualizer.dir/main.cpp.obj"
   )

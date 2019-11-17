@@ -87,10 +87,16 @@
 		<Unit filename="C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/Sort.h">
 			<Option target="SortVisualizer"/>
 		</Unit>
+		<Unit filename="C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/SortVisualizer.h">
+			<Option target="SortVisualizer"/>
+		</Unit>
 		<Unit filename="C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Headers/Value.h">
 			<Option target="SortVisualizer"/>
 		</Unit>
 		<Unit filename="C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Sources/Sort.cpp">
+			<Option target="SortVisualizer"/>
+		</Unit>
+		<Unit filename="C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Sources/SortVisualizer.cpp">
 			<Option target="SortVisualizer"/>
 		</Unit>
 		<Unit filename="C:/Users/Fraxinus/Documents/Codes/CPP/SortVisualizer/Sources/Value.cpp">

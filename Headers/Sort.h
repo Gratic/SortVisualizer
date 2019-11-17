@@ -36,6 +36,8 @@ public:
 
     void bubbleSort();
 
+    void selectionSort();
+
     void swap(int a, int b);
 
     void sleepDelay();

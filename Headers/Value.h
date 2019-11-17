@@ -11,22 +11,7 @@
 class Value {
 private:
     int value;
-    bool isPivot;
-    bool isOrdered;
-    bool isInUse;
 public:
-    bool getIsPivot() const;
-
-    void setIsPivot(bool isPivot);
-
-    bool getIsOrdered() const;
-
-    void setIsOrdered(bool isOrdered);
-
-    bool getIsInUse() const;
-
-    void setIsInUse(bool isInUse);
-
     bool operator==(const Value &rhs) const;
 
     bool operator!=(const Value &rhs) const;
