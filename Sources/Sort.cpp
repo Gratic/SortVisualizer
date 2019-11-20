@@ -59,11 +59,13 @@ void Sort::merge(int lo, int m, int hi) {
     std::vector<Value> a, b; // Vectors buffers
 
     // Copie des éléments dans leurs buffers
+    sleepDelay();
     for (int i(0); i < n1; i++)
     {
         a.push_back(getValues()[lo + i]);
         setStartPivotIndex(lo + i);
     }
+    sleepDelay();
     for (int i(0); i < n2; i++)
     {
         b.push_back(getValues()[m + 1 + i]);
@@ -111,10 +113,11 @@ void Sort::quickSort(int lo, int hi) {
         int pivot(hi);
         int i(lo);
         while (i <= pivot) {
+            sleepDelay();
+            sleepDelay();
             if (getValues()[i] > getValues()[pivot]) {
                 sleepDelay();
                 swap(i, pivot - 1);
-                sleepDelay();
                 swap(pivot - 1, pivot);
 
                 pivot--;
@@ -128,20 +131,22 @@ void Sort::quickSort(int lo, int hi) {
         quickSort(lo, pivot - 1);
         quickSort(pivot + 1, hi);
     }
-    else
-        sortedIndexes.push_back(lo);
+    //else
+    //  sortedIndexes.push_back(lo);
 }
 
 void Sort::bubbleSort() {
     int size(getValues().size());
     for(int i(0); i < size; i++)
     {
+        sleepDelay();
         for(int j(0); j < size - 1 - i; j++)
         {
+            sleepDelay();
             setPivotIndex(j);
+            sleepDelay();
             if(getValues()[j] > getValues()[j + 1])
             {
-                sleepDelay();
                 swap(j, j + 1);
             }
         }
@@ -153,6 +158,7 @@ void Sort::bubbleSort() {
 void Sort::selectionSort() {
     for(int i(0); i < getNumberOfElement(); i++)
     {
+        sleepDelay();
         int min(getNumberOfElement() - 1);
         for(int j(i); j < getNumberOfElement(); j++)
         {

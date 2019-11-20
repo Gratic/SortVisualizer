@@ -17,17 +17,6 @@ SortVisualizer::SortVisualizer(int numberOfElements, int maxValue, std::string s
 }
 
 void SortVisualizer::launchSort() {
-//    std::thread th;
-//    sort.setDelay(delay);
-//    if (type == "quickSort")
-//        th = std::thread(&Sort::quickSort, &sort, 0, numberOfElements - 1);
-//    else if (type == "mergeSort")
-//        th = std::thread(&Sort::mergeSort, &sort, 0, numberOfElements - 1);
-//    else if (type == "bubbleSort")
-//        th = std::thread(&Sort::bubbleSort, &sort);
-//    else if (type == "selectionSort")
-//        th = std::thread(&Sort::selectionSort, &sort);
-//    return th;
     sort.setDelay(delay);
     if (sortType == "quickSort")
         thread = std::thread(&Sort::quickSort, &sort, 0, numberOfElements - 1);
@@ -60,7 +49,7 @@ std::vector<sf::RectangleShape> SortVisualizer::valuesToRectangles() const {
         rectangles.push_back(rectangle);
     }
 
-    if(!sort.getIsSorted())
+    if(!Sort::checkSorted(sort))
     {
         if(sort.getPivotIndex() != -1)
             rectangles[sort.getPivotIndex()].setFillColor(sf::Color::Red);
